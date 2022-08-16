@@ -4,10 +4,22 @@ html {
 
 .container-principal {
     display: flex;
+    flex-direction: column;
     border: 2px solid #dadce0;
     width: 600px;
-    height: 180px;
+    height: 220px;
     border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem auto;
+}
+
+.titulo-principal {
+    font-size: 18px;
+}
+
+.area-inputs {
+    display: flex;
     justify-content: center;
     align-items: center;
 }
@@ -45,5 +57,38 @@ html {
     padding: 4px 5px;
     background-color: #f8f9fa;
     border-radius: 2px;
+    font-size: 16px;
 }
 
+.texto-formula {
+    font-size: 15px;
+    text-align: start;
+    margin-top: 2rem;
+}
+
+.formula {
+    background-color: #f9ab00;
+    border-radius: 3px;
+    color: #FFFFFF;
+    font-size: 12px;
+}
+
+.copyright {
+    font-size: 14px;
+    margin-top: 2rem;
+    text-align: center;
+}
+.copyright a {
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+}
+
+.copyright a:hover {
+    color: rgb(107, 58, 187);
+    transition: 0.3s;
+}
+
+.copyright a:active {
+    color: rgb(147, 101, 221);
+    transition: 0.3s;
+}

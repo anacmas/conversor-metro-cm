@@ -8,17 +8,26 @@
     <title>Conversor de medidas</title>
 </head>
 <body>
-    <div class="container-principal">
-        <form class="formulario">
-            <input type="number" maxlength="5" id="n1" required>
-            <label class="label-texto">Metros</label>
-        </form>
-        <div class="igual">=</div>
-        <form class="formulario">
-            <input type="number" maxlength="5" id="n2" required>
-            <label class="label-texto">Centímetros</label>
-        </form>
-    </div>
+    <section class="container-principal">
+        <h1 class="titulo-principal">Conversor de medidas</h1>
+        <div class="area-inputs">
+            <form class="formulario">
+                <input type="number" maxlength="5" id="n1" required>
+                <label class="label-texto">Metros</label>
+            </form>
+            <div class="igual">=</div>
+            <form class="formulario">
+                <input type="number" maxlength="5" id="n2" required>
+                <label class="label-texto">Centímetros</label>
+            </form>
+        </div>
+        <div class="texto-formula"><span class="formula">Fórmula</span> multiplique o valor de comprimento por 100
+        </div>
+    </section>
+    <section class="copyright">
+        Projeto por <a href="https://github.com/anacmas" target="_blank">Ana Carolina M.</a>
+    </section>
+
     <script src="main.js"></script>
 </body>
 </html>
