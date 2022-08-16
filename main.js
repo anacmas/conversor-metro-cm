@@ -16,5 +16,3 @@ function converteParaM() {
     inputEmM.value = inputEmCm/ 100
 
 }
-
-
